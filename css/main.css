@@ -1,0 +1,1923 @@
+@font-face {
+  font-family: "Yeast 22";
+  font-style: normal;
+  src: url("/fonts/yeast_22.ttf") format("ttf"),
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: Reddit Sans;
+  background:transparent;
+  border: 0;
+}
+.count {
+  margin: 0 100px;
+  color: rgba(0,0,0,1);
+  font-family: Reddit Sans;
+  font-size: 25px;
+}
+.v124_147 {
+  width: 100%;
+  height: 7632px;
+  background: url("../images/v124_147.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v61_2 {
+  width: 100%;
+  height: 800px;
+  background: rgba(246,186,214,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v77_188 {
+  width: 104px;
+  height: 105px;
+  background: url("../images/v77_188.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  left: 5px;
+  transform: rotate(-30deg);
+  overflow: hidden;
+}
+.v61_4 {
+  width: 100%;
+  height: 56px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 34px;
+  left: 42px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v61_6 {
+  width: 352px;
+  height: 80px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 581px;
+  left: 38px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0px 4px 4px rgba(0.7895833253860474, 0.5099392533302307, 0.6404398083686829, 1);
+  overflow: hidden;
+}
+.v61_7 {
+  width: 503px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 502px;
+  left: 38px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v61_8 {
+  width: 195px;
+  color: rgba(138,209,240,1);
+  position: absolute;
+  top: 45px;
+  left: 56px;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+  font-family: "Yeast 22";
+}
+.v61_9 {
+  width: 53px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 49px;
+  left: 519px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_10 {
+  width: 84px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 50px;
+  left: 324px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_11 {
+  width: 56px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 49px;
+  left: 683px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_12 {
+  width: 119px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 49px;
+  left: 1057px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_13 {
+  width: 96px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 49px;
+  left: 850px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_14 {
+  width: 245px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 605px;
+  left: 100px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v77_182 {
+  width: 389px;
+  height: 704px;
+  background: url("../images/v77_182.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 150px;
+  left: 829px;
+  overflow: hidden;
+}
+.v77_183 {
+  width: 111px;
+  height: 112px;
+  background: url("../images/v77_183.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 282px;
+  left: 1415px;
+  transform: rotate(-134deg);
+  overflow: hidden;
+}
+.v77_184 {
+  width: 62px;
+  height: 62px;
+  background: url("../images/v77_184.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 325px;
+  left: 624px;
+  overflow: hidden;
+}
+.v77_185 {
+  width: 61px;
+  height: 62px;
+  background: url("../images/v77_185.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 138px;
+  left: 502px;
+  overflow: hidden;
+}
+.v77_186 {
+  width: 127px;
+  height: 128px;
+  background: url("../images/v77_186.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 646px;
+  left: 1370px;
+  overflow: hidden;
+}
+.v77_187 {
+  width: 127px;
+  height: 128px;
+  background: url("../images/v77_187.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 565px;
+  left: 441px;
+  transform: rotate(-35deg);
+  overflow: hidden;
+}
+.v77_190 {
+  width: 76px;
+  height: 77px;
+  background: url("../images/v77_190.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 312px;
+  left: 307px;
+  overflow: hidden;
+}
+.v77_191 {
+  width: 99px;
+  height: 100px;
+  background: url("../images/v77_191.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 103px;
+  left: 867px;
+  overflow: hidden;
+}
+.v77_192 {
+  width: 56px;
+  height: 57px;
+  background: url("../images/v77_192.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 350px;
+  left: 1299px;
+  overflow: hidden;
+}
+.v120_2 {
+  width: 51px;
+  height: 52px;
+  background: url("../images/v120_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 533px;
+  left: 1337px;
+  transform: rotate(-19deg);
+  overflow: hidden;
+}
+.v61_5 {
+  width: 647px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 215px;
+  left: 38px;
+  text-shadow: 0px 4px 4px rgba(0.7895833253860474, 0.5099392533302307, 0.6404398083686829, 0.5);
+  font-family: "Yeast 22";
+  font-weight: 400;
+  font-size: 96px;
+  opacity: 1;
+  text-align: left;
+}
+.v77_193 {
+  width: 92px;
+  height: 93px;
+  background: url("../images/v77_193.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 343px;
+  left: 857px;
+  overflow: hidden;
+}
+.v77_194 {
+  width: 76px;
+  height: 77px;
+  background: url("../images/v77_194.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 701px;
+  left: 689px;
+  overflow: hidden;
+}
+.v77_195 {
+  width: 76px;
+  height: 77px;
+  background: url("../images/v77_195.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 757px;
+  left: 324px;
+  transform: rotate(-30deg);
+  overflow: hidden;
+}
+.v77_196 {
+  width: 56px;
+  height: 57px;
+  background: url("../images/v77_196.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  overflow: hidden;
+}
+.v77_189 {
+  width: 127px;
+  height: 128px;
+  background: url("../images/v77_189.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 690px;
+  left: 34px;
+  overflow: hidden;
+}
+.v61_165 {
+  width: 100%;
+  height: 800px;
+  background: rgba(255,176,218,1);
+  opacity: 1;
+  position: absolute;
+  top: 800px;
+  left: 0px;
+  overflow: hidden;
+}
+.v61_166 {
+  width: 408px;
+  height: 588px;
+  background: rgba(150,223,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 154px;
+  left: 970px;
+  border: 5px solid rgba(150,223,255,1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.v61_167 {
+  width: 408px;
+  height: 588px;
+  background: rgba(150,223,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 154px;
+  left: 65px;
+  border: 5px solid rgba(150,223,255,1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.v61_168 {
+  width: 408px;
+  height: 588px;
+  background: rgba(150,223,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 154px;
+  left: 516px;
+  border: 5px solid rgba(150,223,255,1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.v61_169 {
+  width: 353px;
+  height: 60px;
+  background: rgba(217,217,217,0);
+  opacity: 1;
+  position: absolute;
+  top: 585px;
+  left: 94px;
+  border: 5px solid rgba(255,250,202,1);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v61_170 {
+  width: 353px;
+  height: 60px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 655px;
+  left: 94px;
+  border: 5px solid rgba(95,165,201,0);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v61_171 {
+  width: 353px;
+  height: 60px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 655px;
+  left: 543px;
+  border: 5px solid rgba(95,165,201,0);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v61_172 {
+  width: 353px;
+  height: 60px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 655px;
+  left: 997px;
+  border: 5px solid rgba(95,165,201,0);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v61_173 {
+  width: 353px;
+  height: 60px;
+  background: rgba(217,217,217,0);
+  opacity: 1;
+  position: absolute;
+  top: 585px;
+  left: 543px;
+  border: 5px solid rgba(255,250,202,1);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v61_174 {
+  width: 353px;
+  height: 60px;
+  background: rgba(217,217,217,0);
+  opacity: 1;
+  position: absolute;
+  top: 585px;
+  left: 997px;
+  border: 5px solid rgba(255,250,202,1);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v61_175 {
+  width: 314px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 185px;
+  left: 101px;
+  font-family: "Yeast 22";
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_176 {
+  width: 314px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 185px;
+  left: 563px;
+  font-family: "Yeast 22";
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_177 {
+  width: 314px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 179px;
+  left: 1017px;
+  font-family: "Yeast 22";
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_178 {
+  width: 272px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 669px;
+  left: 133px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_179 {
+  width: 272px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 669px;
+  left: 1038px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_180 {
+  width: 272px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 669px;
+  left: 584px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_184 {
+  width: 79px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 591px;
+  left: 87px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_185 {
+  width: 79px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 591px;
+  left: 1277px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_186 {
+  width: 79px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 591px;
+  left: 817px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_187 {
+  width: 79px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 591px;
+  left: 360px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_188 {
+  width: 79px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 591px;
+  left: 986px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_189 {
+  width: 79px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 591px;
+  left: 538px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_190 {
+  width: 85px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 24px;
+  left: 650px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_191 {
+  width: 295px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 746px;
+  left: 178px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v61_192 {
+  width: 295px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 746px;
+  left: 1107px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v61_193 {
+  width: 295px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 746px;
+  left: 650px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.name {
+  color: #fff;
+}
+.v61_194 {
+  width: 100px;
+  position: absolute;
+  top: 130px;
+  left: 1300px;
+  opacity: 1;
+  text-align: left;
+}
+.v61_195 {
+  width: 47px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 165px;
+  left: 1333px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+  transform: rotate(-19deg);
+}
+.v61_197 {
+  width: 218px;
+  height: 217px;
+  background: url("../images/v61_197.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 287px;
+  left: 140px;
+  overflow: hidden;
+}
+.v61_198 {
+  width: 118px;
+  height: 117px;
+  background: url("../images/v61_198.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 400px;
+  left: 270px;
+  overflow: hidden;
+}
+.v61_199 {
+  width: 92px;
+  height: 91px;
+  background: url("../images/v61_199.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 438px;
+  left: 203px;
+  overflow: hidden;
+}
+.v61_200 {
+  width: 305px;
+  height: 263px;
+  background: url("../images/v61_200.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 274px;
+  left: 578px;
+  overflow: hidden;
+}
+.v61_201 {
+  width: 271px;
+  height: 270px;
+  background: url("../images/v61_201.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 267px;
+  left: 1046px;
+  overflow: hidden;
+}
+.v61_382 {
+  width: 100%;
+  height: 800px;
+  background: rgba(40,30,83,1);
+  opacity: 1;
+  position: absolute;
+  top: 6832px;
+  left: 0px;
+  overflow: hidden;
+}
+.v61_383 {
+  width: 100%;
+  height: 86px;
+  background: rgba(255,176,218,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v61_384 {
+  width: 191px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 22px;
+  left: 624px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_385 {
+  width: 66px;
+  height: 104px;
+  background: url("../images/v61_385.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 696px;
+  left: 1363px;
+  overflow: hidden;
+}
+.v61_386 {
+  width: 52px;
+  background: url("../images/v61_386.png");
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 25px;
+}
+.v61_390 {
+  width: 50px;
+  height: 75px;
+  opacity: 1;
+  position: absolute;
+  top: 164px;
+  left: 29px;
+}
+.v61_391 {
+  width: 50px;
+  height: 55px;
+  opacity: 1;
+  position: absolute;
+  top: 295px;
+  left: 28px;
+}
+.v61_392 {
+  width: 60px;
+  height: 55px;
+  opacity: 1;
+  position: absolute;
+  top: 406px;
+  left: 22px;
+}
+.v61_393 {
+  width: 284px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 189px;
+  left: 83px;
+  font-family: "Yeast 22";
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v61_394 {
+  width: 352px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 426px;
+  left: 83px;
+  font-family: "Yeast 22";
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v61_395 {
+  width: 325px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 304px;
+  left: 83px;
+  font-family: "Yeast 22";
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v113_39 {
+  width: 281px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 750px;
+  left: 11px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_40 {
+  width: 100%;
+  height: 800px;
+  background: rgba(150,223,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1600px;
+  left: 0px;
+  overflow: hidden;
+}
+.v74_68 {
+  width: 353px;
+  height: 60px;
+  background: rgba(246,186,214,1);
+  opacity: 1;
+  position: absolute;
+  top: 728px;
+  left: 164px;
+  border: 5px solid rgba(95,165,201,0);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v74_133 {
+  width: 344px;
+  height: 341px;
+  background: url("../images/v74_133.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 264px;
+  left: 149px;
+  overflow: hidden;
+}
+.v74_134 {
+  width: 186px;
+  height: 183px;
+  background: url("../images/v74_134.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 455px;
+  left: 347px;
+  overflow: hidden;
+}
+.v74_135 {
+  width: 146px;
+  height: 142px;
+  background: url("../images/v74_135.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 503px;
+  left: 263px;
+  overflow: hidden;
+}
+.v74_143 {
+  width: 272px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 743px;
+  left: 200px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_159 {
+  width: 367px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 125px;
+  left: 870px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_147 {
+  width: 314px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 181px;
+  left: 164px;
+  font-family: "Yeast 22";
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.v120_3 {
+  width: 353px;
+  height: 60px;
+  background: rgba(217,217,217,0);
+  opacity: 1;
+  position: absolute;
+  top: 662px;
+  left: 164px;
+  border: 5px solid rgba(255,250,202,1);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v61_368 {
+  width: 100%;
+  height: 800px;
+  background: rgba(40,30,83,1);
+  opacity: 1;
+  position: absolute;
+  top: 4800px;
+  left: 0px;
+  overflow: hidden;
+}
+.v112_23 {
+  width: 100%;
+  height: 201px;
+  background: url("../images/v112_23.png");
+  opacity: 1;
+  position: absolute;
+  top: 161px;
+  left: 190px;
+}
+.v112_30 {
+  width: 100%;
+  height: 278px;
+  background: url("../images/v112_30.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 329px;
+  overflow: hidden;
+}
+.v61_369 {
+  width: 100%;
+  height: 86px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v61_370 {
+  width: 153px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 22px;
+  left: 643px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v80_202 {
+  width: 100%;
+  height: 800px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 5232px;
+  left: 0px;
+  overflow: hidden;
+}
+.v80_241 {
+  width: 100%;
+  height: 86px;
+  background: rgba(246,186,214,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v80_252 {
+  width: 52px;
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+.v84_24 {
+  width: 52px;
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+.v80_246 {
+  width: 133px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 16px;
+  left: 653px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+
+.v84_3 {
+  background: url("../images/v84_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 692px;
+  left: 938px;
+  overflow: hidden;
+}
+
+.v84_9 {
+  width: 355px;
+  height: 433px;
+  background: url("../images/v84_9.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 219px;
+  left: 990px;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  overflow: hidden;
+}
+.v84_2 {
+  width: 356px;
+  height: 433px;
+  background: url("../images/v84_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 219px;
+  left: 105px;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  overflow: hidden;
+}
+.v112_32 {
+  width: 146px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 660px;
+  left: 202px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v112_34 {
+  width: 146px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 665px;
+  left: 645px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v112_35 {
+  width: 146px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 661px;
+  left: 1095px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v84_5 {
+  width: 443px;
+  height: 433px;
+  background: url("../images/v84_5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 219px;
+  left: 505px;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  overflow: hidden;
+}
+.v61_308 {
+  width: 52px;
+  background: url("../images/v61_308.png");
+  opacity: 1;
+  position: relative;
+  top: 18px;
+  left: 25px;
+}
+.v61_348 {
+  width: 100%;
+  height: 86px;
+  background: rgba(255, 250, 202, 1);
+  opacity: 1;
+  position: absolute;
+  top: 800px;
+  left: 0px;
+  overflow: hidden;
+}
+.v61_349 {
+  width: 85px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 822px;
+  left: 677px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+
+.v61_357 {
+  width: 100%;
+  height: 800px;
+  background: rgba(40,30,83,1);
+  opacity: 1;
+  position: absolute;
+  top: 4000px;
+  left: 0px;
+  overflow: hidden;
+}
+.v61_358 {
+  width: 100%;
+  height: 86px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v61_360 {
+  width: 89px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 22px;
+  left: 675px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v61_361 {
+  width: 881px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 213px;
+  left: 73px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v96_5 {
+  width: 706px;
+  height: 723px;
+  background: url("../images/v96_5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 86px;
+  left: 749px;
+  overflow: hidden;
+}
+.v74_25 {
+  width: 663px;
+  height: 572px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 1761px;
+  left: 715px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v74_70 {
+  width: 100%;
+  height: 86px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 1600px;
+  left: 1px;
+  overflow: hidden;
+}
+.v74_71 {
+  width: 118px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1622px;
+  left: 661px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_73 {
+  width: 52px;
+  background: url("../images/v74_73.png");
+  opacity: 1;
+  position: absolute;
+  top: 1618px;
+  left: 20px;
+}
+.v74_111 {
+  width: 100%;
+  height: 800px;
+  background: rgba(150,223,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 3200px;
+  left: 0px;
+  overflow: hidden;
+}
+.v74_137 {
+  width: 350px;
+  height: 349px;
+  background: url("../images/v74_137.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 271px;
+  left: 137px;
+  overflow: hidden;
+}
+.v74_141 {
+  width: 663px;
+  height: 572px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 160px;
+  left: 720px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v74_149 {
+  width: 314px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 184px;
+  left: 155px;
+  font-family: "Yeast 22";
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_155 {
+  width: 272px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 685px;
+  left: 1163px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_165 {
+  width: 367px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 120px;
+  left: 868px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_172 {
+  width: 577px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 225px;
+  left: 766px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v120_13 {
+  width: 346px;
+  height: 64px;
+  background: rgba(246,186,214,1);
+  opacity: 1;
+  position: absolute;
+  top: 711px;
+  left: 152px;
+  border: 5px solid rgba(95,165,201,0);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v120_14 {
+  width: 272px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 727px;
+  left: 184px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v120_15 {
+  width: 353px;
+  height: 60px;
+  background: rgba(217,217,217,0);
+  opacity: 1;
+  position: absolute;
+  top: 646px;
+  left: 148px;
+  border: 5px solid rgba(255,250,202,1);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v74_127 {
+  width: 100%;
+  height: 86px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 3200px;
+  left: 1px;
+  overflow: hidden;
+}
+.v74_128 {
+  width: 118px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3222px;
+  left: 661px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_129 {
+  width: 52px;
+  background: url("../images/v74_129.png");
+  opacity: 1;
+  position: absolute;
+  top: 3218px;
+  left: 20px;
+}
+.v74_153 {
+  width: 272px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2280px;
+  left: 1168px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_89 {
+  width: 100%;
+  height: 800px;
+  background: rgba(150,223,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 2400px;
+  left: 1px;
+  overflow: hidden;
+}
+.v74_96 {
+  width: 345px;
+  color: rgba(255,250,202,1);
+  position: absolute;
+  top: 180px;
+  left: 139px;
+  font-family: "Yeast 22";
+  font-weight: Regular;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_67 {
+  width: 409px;
+  height: 352px;
+  background: url("../images/v74_67.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 280px;
+  left: 124px;
+  overflow: hidden;
+}
+.v74_139 {
+  width: 663px;
+  height: 572px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 160px;
+  left: 720px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v74_151 {
+  width: 272px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 683px;
+  left: 1178px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_167 {
+  width: 367px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 120px;
+  left: 868px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_170 {
+  width: 577px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 213px;
+  left: 763px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v120_7 {
+  width: 353px;
+  height: 61px;
+  background: rgba(246,186,214,1);
+  opacity: 1;
+  position: absolute;
+  top: 717px;
+  left: 153px;
+  border: 5px solid rgba(95,165,201,0);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v120_8 {
+  width: 272px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 732px;
+  left: 189px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v120_9 {
+  width: 353px;
+  height: 60px;
+  background: rgba(217,217,217,0);
+  opacity: 1;
+  position: absolute;
+  top: 651px;
+  left: 153px;
+  border: 5px solid rgba(255,250,202,1);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v74_105 {
+  width: 100%;
+  height: 86px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 2400px;
+  left: 2px;
+  overflow: hidden;
+}
+.v74_106 {
+  width: 118px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2422px;
+  left: 662px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v74_107 {
+  width: 52px;
+  background: url("../images/v74_107.png");
+  opacity: 1;
+  position: absolute;
+  top: 2418px;
+  left: 20px;
+}
+.v61_362 {
+  width: 52px;
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+.v61_377 {
+  width: 52px;
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+.v74_169 {
+  width: 577px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1804px;
+  left: 758px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v84_4 {
+  background: url("../images/v84_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5925px;
+  left: 997px;
+  overflow: hidden;
+}
+.v84_21 {
+  width: 100%;
+  height: 800px;
+  background: rgba(255,250,202,1);
+  opacity: 1;
+  position: absolute;
+  top: 6032px;
+  left: 0px;
+  overflow: hidden;
+}
+.v84_22 {
+  width: 100%;
+  height: 86px;
+  background: rgba(246,186,214,1);
+  opacity: 1;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  overflow: hidden;
+}
+.v84_23 {
+  width: 133px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 16px;
+  left: 653px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+
+.v84_25 {
+  background: url("../images/v84_25.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 692px;
+  left: 938px;
+  overflow: hidden;
+}
+
+.v96_3 {
+  width: 443px;
+  height: 433px;
+  background: url("../images/v96_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 232px;
+  left: 505px;
+  border-top-left-radius: 29px;
+  border-top-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  overflow: hidden;
+}
+.v96_4 {
+  width: 355px;
+  height: 433px;
+  background: url("../images/v96_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 232px;
+  left: 996px;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  overflow: hidden;
+}
+.v96_2 {
+  width: 356px;
+  height: 433px;
+  background: url("../images/v96_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 232px;
+  left: 105px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v112_36 {
+  width: 146px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 673px;
+  left: 190px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v112_37 {
+  width: 186px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 670px;
+  left: 635px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v112_38 {
+  width: 146px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 670px;
+  left: 1100px;
+  font-family: Reddit Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v84_30 {
+  background: url("../images/v84_30.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 6725px;
+  left: 997px;
+  overflow: hidden;
+}
+.left1 {
+  width:50px;
+  height:50px;
+  position: absolute;
+  top: 410px;
+  left: 18px;
+}
+.right1 {
+  width:50px;
+  height:50px;
+  transform: scaleX(-1);
+  position: absolute;
+  top: 410px;
+  right: 18px;
+}
